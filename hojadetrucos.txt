@@ -1,0 +1,100 @@
+1. Variables y Declaraciones
+
+Tipo	Descripción
+
+var	Declara una variable, opcionalmente la inicializa a un valor.
+let	Declara una variable de alcance de bloque, opcionalmente la inicializa a un valor.
+const	Declara una variable de solo lectura de alcance de bloque.
+
+2. Tipos de Datos
+Tipo	Descripción
+String	Para cadenas de texto.
+Number	Para valores numéricos, enteros o de punto flotante.
+Boolean	Para valores verdaderos o falsos.
+Object	Para colecciones estructuradas de datos.
+Array	Para listas ordenadas de valores.
+Function	Para definir funciones.
+undefined	Tipo asignado a una variable que no ha sido inicializada.
+null	Indica una ausencia intencional de cualquier valor de objeto.
+
+3. Operadores
+Operador	Descripción
++	Adición o concatenación de cadenas.
+-	Sustracción.
+*	Multiplicación.
+/	División.
+%	Módulo (resto de la división).
+++	Incremento.
+--	Decremento.
+=	Asignación.
+==	Igualdad (conversión de tipo).
+===	Igualdad estricta (sin conversión de tipo).
+!=	Desigualdad (conversión de tipo).
+!==	Desigualdad estricta (sin conversión de tipo).
+>	Mayor que.
+<	Menor que.
+>=	Mayor o igual que.
+<=	Menor o igual que.
+&&	AND lógico.
+||	OR lógico.
+!	NOT lógico.
+?:	Operador ternario (condicional).
+
+4. Estructuras de Control
+Estructura	Descripción
+if...else	Declaración condicional.
+switch	Declaración de selección múltiple.
+for	Bucle que se repite hasta que una condición especificada es falsa.
+while	Bucle que se ejecuta mientras la condición sea verdadera.
+do...while	Bucle que se ejecuta al menos una vez y luego mientras la condición sea verdadera.
+
+5. Funciones
+Tipo	Descripción
+function nombreFuncion() {}	Declara una función.
+return	Devuelve un valor desde una función.
+() => {}	Función flecha, útil para mantener el contexto de this.
+
+6. Objetos
+Método	Descripción
+{ key: value, ... }	Literal de objeto para crear un objeto.
+Object.keys(obj)	Devuelve un array con las claves del objeto.
+Object.values(obj)	Devuelve un array con los valores de las propiedades del objeto.
+Object.assign(dest, [src1, src2, ...])	Copia las propiedades de uno o más objetos fuente a un objeto destino.
+
+7. Arreglos (Arrays)
+Método	Descripción
+[element0, element1, ..., elementN]	Literal de arreglo para crear un arreglo.
+array.length	Obtiene o establece la cantidad de elementos en un arreglo.
+array.push(element)	Agrega un elemento al final del arreglo.
+array.pop()	Elimina el último elemento del arreglo.
+array.shift()	Elimina el primer elemento del arreglo.
+array.unshift(element)	Agrega un elemento al inicio del arreglo.
+array.indexOf(element)	Encuentra el índice de un elemento en el arreglo.
+array.slice(start, end)	Devuelve una sección del arreglo.
+
+8. Cadenas de Texto (Strings)
+Método	Descripción
+String.length	Devuelve la longitud de una cadena de texto.
+String.concat(string2, string3, ..., stringN)	Combina dos o más cadenas y devuelve una nueva.
+String.indexOf(searchValue)	Devuelve el índice de la primera ocurrencia del valor especificado.
+String.slice(start, end)	Extrae una sección de una cadena y devuelve una cadena nueva.
+String.toLowerCase()	Convierte una cadena a minúsculas.
+String.toUpperCase()	Convierte una cadena a mayúsculas.
+String.trim()	Elimina los espacios en blanco de ambos extremos de una cadena.
+
+9. Expresiones Regulares
+Expresión	Descripción
+/ab+c/	Define una expresión regular para coincidir con un patrón específico dentro de las cadenas.
+regexp.test(string)	Prueba si una cadena cumple con el patrón de la expresión regular.
+string.match(regexp)	Retorna un array con los resultados de las coincidencias.
+
+10. Manejo de Errores
+Método	Descripción
+try...catch	Marca un bloque de declaraciones para probar y especifica una respuesta si se produce una excepción.
+throw	Lanza una excepción definida por el usuario.
+11. Promesas y Asincronía
+
+Tipo	Descripción
+Promise	Objeto que representa la eventual finalización o falla de una operación asíncrona.
+async function	Declara una función asíncrona que devuelve una Promise.
+await	Pausa la ejecución de una función asíncrona hasta que una Promise es resuelta o rechazada.
